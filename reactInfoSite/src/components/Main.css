@@ -1,0 +1,25 @@
+main {
+    background-image: url("../assets/react-logo-transparent-png.png");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    padding: 57px 27px;
+}
+
+
+.main--header {
+    color: white;
+    margin: 0;
+}
+
+.main--list {
+   color: white;
+   list-style: none;
+ 
+}
+
+.main--list > li::before {
+    content: "•";
+    color: #61DAFB;
+    font-size: 2rem;
+    padding-right: 1%;
+}
