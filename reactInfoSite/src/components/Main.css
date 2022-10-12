@@ -1,7 +1,8 @@
 main {
     background-image: url("../assets/react-logo-transparent-png.png");
     background-repeat: no-repeat;
-    background-position: right 50%;
+    background-size: 20%;
+    background-position: 113% 19%;
     padding: 57px 27px;
 }
 
