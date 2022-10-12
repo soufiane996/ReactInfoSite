@@ -1,11 +1,13 @@
+import Card from "./components/Card/Card"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 function App() {
  
   return (
     <div className="App">
-        <Navbar />
-        <Main />
+        
+        {/* Diplay the card component only centerd on the Screen */}
+        <Card /> 
       
     </div>
   )
