@@ -1,0 +1,132 @@
+/* Card container */
+
+.card--container {
+    background-color: #1A1B21;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0px 0px 25px 25px;
+} 
+
+/* Card Header CSS */
+.card--img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.card--header {
+    background-color: #282D35;
+    height: 317px;
+    width: 317px;
+}
+/* Card menu */
+.card-body-container {
+    width: 317 px;
+    height: 399 px;
+}
+
+.general--info > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFF;
+    font-size: normal;
+    padding-top: 8%;
+}
+
+.general--info > h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+.general--info > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+}
+.btn {
+    width: 40%;
+    padding: 4px 8px 4px 8px;
+
+}
+
+.additional--info {
+    margin-left: 28px;
+    margin-top: 28px;
+    margin-bottom: 38px;
+    width: 247px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
+}
+
+.additional--info > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.additional--info > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    max-width: fit-content;
+}
+
+
+
+
+/* Card footer */
+
+.card--footer {
+    background-color: #161619;
+    border-radius: 0px 0px 25px 25px;
+    padding-top: 5%;
+}
+
+.footer-list{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 15%;
+    margin-left: 2%;
+
+}
+
+.footer-fa {
+    padding: 5px;
+    font-size: 27px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: #918E9B;
+    color: #161619;
+    margin-bottom: 50%;
+  }
+
